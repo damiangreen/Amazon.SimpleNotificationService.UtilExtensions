@@ -19,7 +19,7 @@ namespace Amazon.SimpleNotificationService.UtilExtensions.Tests
             Assert.AreEqual("eu-west-1", firstRecord.AwsRegion);
             Assert.AreEqual("ObjectCreated:Put", firstRecord.EventName);
             Assert.AreEqual("aws:s3", firstRecord.EventSource);
-            //Assert.AreEqual(Convert.ToDateTime("2016-04-06T15:11:23.383Z"), firstRecord.EventTime);
+            Assert.AreEqual(Convert.ToDateTime("2016-04-06T15:11:23.383Z").ToUniversalTime(), firstRecord.EventTime); //Convert.ToDateTime("2016-04-06T15:11:23.383Z").ToUniversalTime()
             Assert.AreEqual(2.0, firstRecord.EventVersion);
             Assert.AreEqual("119.148.208.90", firstRecord.RequestParameters.SourceIpAddress);
             Assert.AreEqual("44CC12B04449FEA6", firstRecord.ResponseElements.XAmzRequestId);
