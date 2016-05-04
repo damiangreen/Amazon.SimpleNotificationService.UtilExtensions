@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Amazon.SimpleNotificationService.UtilExtensions</id>
+    <version>1.0.0</version>
+    <authors>damian</authors>
+    <owners>damian</owners>
+    <projectUrl>https://github.com/damiangreen/Amazon.SimpleNotificationService.UtilExtensions</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Parsing capabilities for AWS</description>
+    <releaseNotes>Initial Release</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>AWS SNS Parsing</tags>
+  </metadata>
+</package>
