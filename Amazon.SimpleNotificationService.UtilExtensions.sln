@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon.SimpleNotificationSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon.SimpleNotificationService.UtilExtensions.Tests", "Amazon.SimpleNotificationService.UtilExtensions.Tests\Amazon.SimpleNotificationService.UtilExtensions.Tests.csproj", "{8A615AE8-9A97-467F-9002-F9B949F3295A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{A9D286EC-92D0-42A6-973D-B530C0F90446}"
+	ProjectSection(SolutionItems) = preProject
+		Amazon.SimpleNotificationService.UtilExtensions\template.nuspec = Amazon.SimpleNotificationService.UtilExtensions\template.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
