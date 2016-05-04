@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bucket.cs" />
     <Compile Include="UserIdentity.cs" />
     <Compile Include="Object.cs" />
     <Compile Include="EventNotificationMessage.cs" />
